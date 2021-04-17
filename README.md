@@ -16,7 +16,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-<img src="https://media.giphy.com/media/x40rRTKKlmfb7rfDWu/giphy.gif" width=250><br>
+<img src="https://media.giphy.com/media/YR97slzApAiQpWo40p/giphy.gif" width=250><br>
 
 ### Notes
 This app was relatively straight forward. However, one challenge I encountered was the creating of a border around the view containing each movie. I had originally assumed that this could be done with something along the lines of `android:borderColor="@color/black"`, however, I was mistaken. To create these borders, I made a simple shape view in the `drawable` directory. I then set this shape as the background for my movie items. 
